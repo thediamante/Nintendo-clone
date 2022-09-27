@@ -1,0 +1,46 @@
+.bottom-header-cluster {
+    background-color: white;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 25px;
+    right: 0;
+    left: 0;
+    top: 52px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(199, 199, 199);
+    border-bottom-style: solid;
+    z-index: 2;
+}
+
+.bottom-header-buttons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-bottom: 10px;
+}
+
+.bottom-header-svg {
+    fill: rgb(71, 71, 71);
+    margin-right: 7px;
+    transition: fill 0.3s;
+}
+
+.bottom-header-buttons:hover,
+.bottom-header-buttons:hover #bottom-header-buttons,
+.bottom-header-buttons:hover > .bottom-header-svg {
+    fill: rgb(230, 0 ,18);
+    color: rgb(230, 0 ,18);
+}
+
+#bottom-header-buttons {
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}

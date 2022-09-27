@@ -1,0 +1,62 @@
+.featured-grid-cluster {
+    margin: 50px 25px 0 25px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.featured-grid-content {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 10px;
+   margin-top: 100px;
+}
+
+.featured-box-content {
+    border: 1px solid rgb(185, 185, 185);
+    border-top: none;
+    border-radius: 5px;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.featured-image-box {
+    position: relative;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    border-bottom: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.featured-box-content:hover {
+}
+
+.featured-box-content:hover .featured-text {
+   color: rgb(230, 0, 18);
+}
+
+.featured-box-content:hover .featured-image-box {
+    transform: translateY(-20px);
+}
+
+.featured-image {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 260px;
+}
+
+.featured-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+    padding: 10px 17px;
+    transition: color 0.3s;
+}
+
+.nintendo-switch {
+    padding: 10px 17px;
+    font-size: 14px;
+}

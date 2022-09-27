@@ -1,0 +1,27 @@
+.online-store-cluster {
+    margin: 50px 25px 0 25px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(214, 214, 214);  
+ }
+
+ .online-store-banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+ }
+
+ .under-olstore-banner {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+ }
+
+ .olstore-text {
+    color: rgb(72,72,72);
+    font-weight: 700;
+    font-size: 20px;
+    width: 900px;
+    margin-right: 250px;
+ }

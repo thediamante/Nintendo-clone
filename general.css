@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 92px;
+}
+
+.link {
+    color: #E60012;
+    transition: color 600ms ease, text-decoration 300ms ease;
+    text-decoration: underline transparent solid 2px !important;
+    text-underline-offset: 5px;
+}
+
+.link:hover {
+    color: #AC000D;
+    text-decoration: underline #AC000D solid 2px !important;
+}
+
+.h6 {
+    font-size 200px
+}
+
+footer {
+    font-size: 12px;
+}
+
+.tangina {
+    max-width: 600px;
+}

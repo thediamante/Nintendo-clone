@@ -1,0 +1,117 @@
+.main-header-cluster {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(199, 199, 199);
+    border-bottom-style: solid;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}   
+.nintendo-logo-header {
+    display: flex;
+    background-color: rgb(230, 0, 18);
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 51px;
+}
+.nintendo-logo-image {
+    fill: rgb(255, 255, 255);
+    width: 69px;
+}
+
+.searchbar-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 10px;
+    padding-bottom: 7px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    cursor: pointer;
+    transition: border-bottom-color 0.3s;
+}
+
+.magnifying-glass {
+    fill: rgb(72, 72, 72);
+    width: 20px;
+    transition: fill 0.3s;
+}
+.searchbar {
+    font-family: 'Montserrat', sans-serif;
+    width: 280px;
+    font-size: 12px;
+    font-stretch: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    transition: color 0.3s;
+    color: rgb(114, 114, 114);
+}
+
+
+.searchbar-categories:hover,
+.searchbar-categories:hover > .magnifying-glass,
+.searchbar-categories:hover > ::placeholder {
+    border-bottom-color: rgb(230, 0, 18);
+    color: rgb(230, 0, 18);
+    fill: rgb(230, 0, 18);
+
+}
+
+.all-categories-dropdown {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.all-categories-dropdown:hover,
+.all-categories-dropdown:hover .magnifying-glass  {
+    fill: blue;
+    color: rgb(230, 0, 18);
+}
+
+.right-side-header {
+    color: rgb(72, 72, 72);
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    width: 430px;
+    padding: 0 30px 0;
+}
+
+.right-side-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+
+
+.right-side-button:hover > .right-side-logos,
+.right-side-button:hover {
+    fill: rgb(230, 0, 18);
+    color: rgb(230, 0, 18);
+}
+
+.right-side-logos {
+    fill: rgb(72, 72, 72);
+    margin-right: 9px;
+    transition: fill 0.5s;
+}

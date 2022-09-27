@@ -1,0 +1,96 @@
+.big-picture-cluster {
+    display: flex;
+    position: relative;
+    background: rgb(0,182,200);
+    background: linear-gradient(183deg, rgba(152,126,238,1) 0%, rgba(254,248,206,1) 65%);
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    height: 450px;
+    padding-top: 30px;
+}
+
+.big-picture {
+    width: 96%;
+    border-radius: 5px;
+}
+
+.under-bigpic-cluster {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 25px 0 25px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    
+
+}
+
+.under-bigpic-title {
+    color: rgb(72, 72, 72);
+    font-weight: 600;
+    font-size: 26px;
+    margin-right: 50px;
+}
+
+.bouncy-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(230, 0 ,18);
+    border: none;
+    border-radius: 4px;
+    margin-left: -200px;
+    padding: 15px 27px;
+    cursor: pointer;
+    max-height: 60px;
+}
+
+.bouncy-button:hover {
+    animation-name: bounce;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+        padding: 15px 27px;
+    }
+    
+    25% {
+        padding: 20px 27px;
+    }
+
+    50% {
+        padding: 20px 32px;
+    }
+
+    75% {
+        padding: 18px 30px;
+        background-color: #ac000D;
+    }
+
+    100% {
+        padding: 20px 32px;
+        background-color: #ac000D;
+    }
+}
+
+
+.under-bigpic-rating {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    color: rgb(72, 72 ,72);
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#under-bigpic-svg {
+    margin-right: 10px;
+    display: flex;
+}
