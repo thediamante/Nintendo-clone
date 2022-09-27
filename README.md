@@ -8,9 +8,9 @@ This project was made from scratch to imitate the official Nintendo website home
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>HTML 5</b> 
-- <b>CSS</b>
-- <b>Bootstrap</b>
+- <b>HTML5</b> 
+- <b>CSS3</b>
+- <b>Bootstrap 5</b>
 
 <h2>Environments Used </h2>
 
